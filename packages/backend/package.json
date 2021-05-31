@@ -1,11 +1,12 @@
 {
-  "name": "bakcend",
+  "name": "@twitter/backend",
   "version": "1.0.0",
   "author": "avocado team",
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test":"echo testing with common version: $npm_package_version"
   },
   "dependencies": {
     "express": "^4.16.1"
